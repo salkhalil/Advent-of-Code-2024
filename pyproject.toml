@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "advent of code 2024"
+version = "0.1.0"
+description = "My solutions to the advent of code 2024"
+authors = ["Sal Khalil <sal.khalil@live.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
